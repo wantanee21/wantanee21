@@ -7,11 +7,16 @@
 }
 
 body{
-    font-family:'Kanit',sans-serif;
-    background:linear-gradient(135deg,#FFE6F7,#F3E8FF,#E5F4FF);
+    font-family:'Prompt',sans-serif;
+    background:linear-gradient(135deg,#ffb6d9,#d8b4fe,#b9f2ff);
     background-size:400% 400%;
-    animation:bgMove 12s ease infinite;
-    color:#555;
+    animation:bg 10s ease infinite;
+}
+
+@keyframes bg{
+    0%{background-position:0% 50%;}
+    50%{background-position:100% 50%;}
+    100%{background-position:0% 50%;}
 }
 
 @keyframes bgMove{
@@ -47,18 +52,10 @@ header p{
 }
 
 section{
-    width:90%;
-    max-width:1000px;
-    margin:25px auto;
-    padding:35px;
-    border-radius:30px;
-
-    background:rgba(255,255,255,.55);
-    backdrop-filter:blur(15px);
-
-    box-shadow:0 10px 25px rgba(160,170,255,.18);
-}
-
+    background:rgba(255,255,255,.35);
+backdrop-filter:blur(20px);
+-webkit-backdrop-filter:blur(20px);
+border:1px solid rgba(255,255,255,.5);
 h2{
     color:#ff69b4;
     margin-bottom:20px;
