@@ -1,0 +1,113 @@
+/* รีเซ็ตค่าเริ่มต้น */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom,#ffeef7,#e8f5ff);
+    color:#555;
+    line-height:1.8;
+}
+
+/* ส่วนหัว */
+header{
+    background: linear-gradient(135deg,#ffb6d9,#b8e7ff);
+    color:white;
+    text-align:center;
+    padding:50px 20px;
+    border-bottom-left-radius:30px;
+    border-bottom-right-radius:30px;
+    box-shadow:0 4px 12px rgba(0,0,0,.15);
+}
+
+header h1{
+    font-size:38px;
+}
+
+header p{
+    margin-top:10px;
+    font-size:18px;
+}
+
+/* เนื้อหา */
+section{
+    width:85%;
+    max-width:900px;
+    margin:35px auto;
+    background:white;
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 4px 10px rgba(255,182,193,.3);
+}
+
+h2{
+    color:#ff69b4;
+    margin-bottom:15px;
+    border-left:6px solid #87cefa;
+    padding-left:10px;
+}
+
+.profile{
+    width:180px;
+    height:180px;
+    object-fit:cover;
+    display:block;
+    margin:20px auto;
+    border-radius:50%;
+    border:5px solid #ffd1e8;
+    box-shadow:0 4px 12px rgba(0,0,0,.2);
+}
+
+/* การ์ดผลงาน */
+.card{
+    background:#fff7fb;
+    border:2px solid #ffd6ea;
+    border-radius:18px;
+    padding:20px;
+    margin:15px 0;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    background:#eef9ff;
+    border-color:#b8e7ff;
+}
+
+/* ทักษะ */
+ul{
+    list-style:none;
+}
+
+li{
+    background:#fef4fa;
+    margin:10px 0;
+    padding:12px;
+    border-radius:12px;
+    border-left:5px solid #87cefa;
+}
+
+/* ปุ่มลิงก์ */
+a{
+    color:#ff69b4;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+a:hover{
+    color:#4aa3ff;
+}
+
+/* ส่วนท้าย */
+footer{
+    background:linear-gradient(135deg,#ffb6d9,#b8e7ff);
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:40px;
+    border-top-left-radius:30px;
+    border-top-right-radius:30px;
+}
